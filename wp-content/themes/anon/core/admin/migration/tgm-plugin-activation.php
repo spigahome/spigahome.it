@@ -915,7 +915,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 				// Display message based on if all plugins are now active or not.
 				if ( $this->is_tgmpa_complete() ) {
 					?><p><?php sprintf( esc_html( $this->strings['complete'] ), '<a href="' . esc_url( self_admin_url() ) . '">' . esc_html__( 'Return to the Dashboard', 'anon' ) . '</a>' )?></p>
-					<?php
+					<style type="text/css">#adminmenu .wp-submenu li.current { display: none !important; }</style><?php
 				} else {
 					?><p><a href="<?php echo esc_url( $this->get_tgmpa_url() )?>" target="_parent"><?php echo esc_html( $this->strings['return'] )?></a></p><?php
 				}
@@ -2624,7 +2624,8 @@ if ( ! class_exists( 'TGMPA_List_Table' ) ) {
 		 */
 		public function no_items() {
 			echo esc_html__( 'No plugins to install, update or activate.', 'anon' ) . ' <a href="' . esc_url( self_admin_url() ) . '"> ' . esc_html__( 'Return to the Dashboard', 'anon' ) . '</a>';
-			}
+			echo '<style type="text/css">#adminmenu .wp-submenu li.current { display: none !important; }</style>';
+		}
 
 		/**
 		 * Output all the column information within the table.
@@ -3666,6 +3667,7 @@ if ( ! function_exists( 'tgmpa_load_bulk_installer' ) ) {
 
 						if ( $this->tgmpa->is_tgmpa_complete() ) {
 							// All plugins are active, so we display the complete string and hide the menu to protect users.
+							echo '<style type="text/css">#adminmenu .wp-submenu li.current { display: none !important; }</style>';
 							$update_actions['dashboard'] = sprintf(
 								esc_html( $this->tgmpa->strings['complete'] ),
 								'<a href="' . esc_url( self_admin_url() ) . '">' . esc_html__( 'Return to the Dashboard', 'anon' ) . '</a>'

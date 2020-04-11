@@ -28,7 +28,13 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 $product_tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
-if (!empty($product_tabs)) : ?>
+if (!empty($product_tabs)) :
+    $allow_html = array(
+        'div' => array( 'class' => array() )
+    );
+    $layout     = zoo_product_tabs_setting() . '-layout';
+    echo wp_kses( '<div class="zoo-product-data-tabs ' . esc_attr( $layout ) . '">', $allow_html );
+    ?>
     <div class="woocommerce-tabs wc-tabs-wrapper">
         <?php if (zoo_product_tabs_setting() == 'tabs') { ?>
             <ul class="tabs wc-tabs" role="tablist">
@@ -66,4 +72,6 @@ if (!empty($product_tabs)) : ?>
         do_action( 'woocommerce_product_after_tabs' ); ?>
     </div>
 
-<?php endif; ?>
+<?php
+    echo wp_kses( '</div>', $allow_html );
+endif; ?>

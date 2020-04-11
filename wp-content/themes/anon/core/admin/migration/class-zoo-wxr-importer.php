@@ -102,6 +102,8 @@ final class Zoo_WXR_Importer
         $this->tags       = $data['tags'];
         $this->base_url   = esc_url($data['base_url']);
 
+        $this->import_start();
+        
         wp_suspend_cache_invalidation(true);
 
         $this->process_categories();

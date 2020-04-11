@@ -47,6 +47,12 @@ if (!function_exists('zoo_theme_register_required_plugins')) {
                 'version' => '1.2.0',
                 'required' => true,
                 'source' => $zoo_directory_plugins . 'cafe-pro.zip',
+            ),array(
+                'name' => esc_html__('Clever Whatsapp Chat', 'anon'),
+                'slug' => 'clever-whatsapp',
+                'version' => '1.0.0',
+                'required' => false,
+                'source' => $zoo_directory_plugins . 'clever-whatsapp.zip',
             ),
             array(
                 'name' => esc_html__('Meta Box', 'anon'),

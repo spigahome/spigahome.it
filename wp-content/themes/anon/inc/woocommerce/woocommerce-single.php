@@ -9,7 +9,6 @@
  * @des         All custom functions, hooks, template of single product WooCommerce.
  */
 
-
 /**
  * Add custom image size
  */
@@ -390,7 +389,9 @@ if(!function_exists('zoo_sale_count_down_variable_html')){
  */
 if ( ! function_exists( 'zoo_single_product_extend_cart_info_button' ) ) {
 	function zoo_single_product_extend_cart_info_button() {
-		get_template_part( 'inc/templates/woocommerce/single-product/extend-cart', 'info-button' );
+	    if(basename( get_page_template() )!='page.php') {
+            get_template_part('inc/templates/woocommerce/single-product/extend-cart', 'info-button');
+        }
 	}
 }
 add_action( 'woocommerce_before_add_to_cart_button', 'zoo_single_product_extend_cart_info_button', 5 );
@@ -402,7 +403,9 @@ add_action( 'woocommerce_before_add_to_cart_button', 'zoo_single_product_extend_
  */
 if ( ! function_exists( 'zoo_single_product_extend_cart_info_content' ) ) {
 	function zoo_single_product_extend_cart_info_content() {
-		get_template_part( 'inc/templates/woocommerce/single-product/extend-cart', 'info-content' );
+        if(basename( get_page_template() )!='page.php') {
+            get_template_part( 'inc/templates/woocommerce/single-product/extend-cart', 'info-content' );
+        }
 	}
 }
 add_action( 'woocommerce_single_product_summary', 'zoo_single_product_extend_cart_info_content', 100 );
@@ -426,13 +429,7 @@ add_action( 'woocommerce_single_product_summary', 'zoo_single_product_extend_not
  * @return new product tabs layout with layout is tabs of accordion.
  */
 function zoo_product_data_tabs() {
-	$allow_html = array(
-		'div' => array( 'class' => array() )
-	);
-	$layout     = zoo_product_tabs_setting() . '-layout';
-	echo wp_kses( '<div class="zoo-product-data-tabs ' . esc_attr( $layout ) . '">', $allow_html );
 	woocommerce_output_product_data_tabs();
-	echo wp_kses( '</div>', $allow_html );
 }
 
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );

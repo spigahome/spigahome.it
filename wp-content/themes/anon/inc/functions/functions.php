@@ -183,29 +183,6 @@ if (!function_exists('zoo_custom_footer_preset')) {
 add_filter('zoo_footer_preset', 'zoo_custom_footer_preset', 1);
 
 /**
- * Remove Contact Form resource, load when page have contact form.
- * */
-if (class_exists('WPCF7')) {
-    add_filter('wpcf7_load_js', '__return_false');
-    add_filter('wpcf7_load_css', '__return_false');
-    if (!function_exists('zoo_cf7_shortcode_scripts')) {
-        function zoo_cf7_shortcode_scripts()
-        {
-            global $post;
-            if (is_a($post, 'WP_Post') && has_shortcode($post->post_content, 'contact-form-7')) {
-                if (function_exists('wpcf7_enqueue_scripts')) {
-                    wpcf7_enqueue_scripts();
-                }
-                if (function_exists('wpcf7_enqueue_styles')) {
-                    wpcf7_enqueue_styles();
-                }
-            }
-        }
-    }
-    add_action('wp_enqueue_scripts', 'zoo_cf7_shortcode_scripts');
-}
-
-/**
  * Add site meta for share.
  * */
 if (!function_exists('zoo_meta')) {
@@ -351,15 +328,21 @@ add_action('wp_head', 'zoo_meta');
 /**
  * Add support upload font.
  */
-function zoo_myme_types( $mime_types ) {
-    $mimes['woff']  = 'application/x-font-woff';
-    $mimes['woff2'] = 'application/x-font-woff2';
-    $mimes['ttf']   = 'application/x-font-ttf';
-    $mimes['svg']   = 'image/svg+xml';
-
-    return $mimes;
+if(!function_exists('zoo_myme_types')){
+    function zoo_myme_types( $mimes ) {
+        $mimes = array_merge(
+            $mimes,
+            array(
+                'woff'  => 'application/x-font-woff',
+                'woff2' => 'application/x-font-woff2',
+                'ttf'   => 'application/x-font-ttf',
+                'svg'   => 'image/svg+xml',
+            )
+        );
+        return $mimes;
+    }
+    add_filter( 'upload_mimes', 'zoo_myme_types');
 }
-add_filter( 'upload_mimes', 'zoo_myme_types');
 
 /**
  * Add custom image size

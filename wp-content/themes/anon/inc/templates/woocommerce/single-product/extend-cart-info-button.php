@@ -8,7 +8,11 @@
  * @copyright   Copyright (c) 2020 ZooTemplate
  *
  */
-
+if(class_exists('\Elementor\Plugin')) {
+    if (\Elementor\Plugin::$instance->preview->is_preview_mode()) {
+        return;
+    }
+}
 if (class_exists('CleverAddons')):
     ob_start();
     if (get_theme_mod('zoo_single_product_cart_size_guide', '') != '') {

@@ -123,12 +123,12 @@ function zoo_theme_default_setup()
 }
 add_action('after_setup_theme', 'zoo_theme_default_setup', 9, 0);
 
-/**
- * Register Elementor Locations.
- *
- * @param ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager $elementor_theme_manager theme manager.
- */
-function hello_elementor_register_elementor_locations($elementor_theme_manager) {
-	$elementor_theme_manager->register_all_core_location(); // Full support.
-}
-add_action('elementor/theme/register_locations', 'hello_elementor_register_elementor_locations');
+///**
+// * Register Elementor Locations.
+// *
+// * @param ElementorPro\Modules\ThemeBuilder\Classes\Locations_Manager $elementor_theme_manager theme manager.
+// */
+//function hello_elementor_register_elementor_locations($elementor_theme_manager) {
+//	$elementor_theme_manager->register_all_core_location(); // Full support.
+//}
+//add_action('elementor/theme/register_locations', 'hello_elementor_register_elementor_locations');

@@ -133,6 +133,31 @@ add_action('wp_enqueue_scripts', function () {
     }
 }, 10, 0);
 
+if (class_exists('WooCommerce', false)) {
+    add_filter('template_include', function ($tpl) {
+        global $wp_query;
+
+        $wishlist_page_enable = zoo_customize_get_setting('zoo_enable_wishlist_redirect');
+        $compare_page_enable = zoo_customize_get_setting('zoo_enable_compare_redirect');
+
+        if (!$wp_query->is_main_query()) {
+            return $tpl;
+        }
+
+        $wishlist_page = get_theme_mod('zoo_wishlist_page');
+        $compare_page = get_theme_mod('zoo_compare_page');
+
+        if ($wishlist_page_enable && $wishlist_page && $wp_query->is_page($wishlist_page)) {
+            return ZOO_THEME_DIR . 'woocommerce/wishlist/my-wishlist.php';
+        }
+
+        if ($compare_page_enable && $compare_page && $wp_query->is_page($compare_page)) {
+            return ZOO_THEME_DIR . 'woocommerce/compare/my-compare.php';
+        }
+
+        return $tpl;
+    }, 99);
+}
 /**
  * @see  https://developer.wordpress.org/reference/hooks/default_title/
  * @see  https://developer.wordpress.org/reference/hooks/default_content/

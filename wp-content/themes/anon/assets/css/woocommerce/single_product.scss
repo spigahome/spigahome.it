@@ -1173,3 +1173,11 @@ div.quantity {
         }
     }
 }
+/*For Elementor template*/
+.woocommerce div.product.elementor form.cart.variations_form .woocommerce-variation-add-to-cart, .woocommerce div.product.elementor form.cart:not(.grouped_form):not(.variations_form){
+    flex-wrap: wrap;
+}
+.woocommerce div.product.elementor .quantity .qty,
+.woocommerce div.product.elementor form.cart .button.zoo-buy-now, .woocommerce div.product.elementor form.cart .zoo-buy-now.added_to_cart{
+    border: none;
+}
