@@ -1,0 +1,81 @@
+/*Widget*/
+.sidebar{
+    .mc4wp-form-fields{
+        p,input,select{
+            margin-bottom: 10px;
+            width: 100%;
+        }
+    }
+}
+.widget_tag_cloud .widget-title {
+    margin-bottom: 25px;
+}
+
+.text-field, textarea {
+    line-height: 1.6;
+}
+
+.zoo-widget-social-icon {
+    &.icon {
+        li {
+            display: inline-block;
+            font-size: 1rem;
+            padding: 0;
+            margin: 0 15px 0 0;
+            &:last-child {
+                margin: 0
+            }
+            a {
+                border: none;
+                &:hover {
+                    color: var(--black-color);
+                }
+            }
+            i{
+                @include px2rem(24);
+            }
+        }
+    }
+}
+
+.widget_recent_comments .recentcomments {
+    position: relative;
+    .comment-author-link {
+        a {
+            &:hover {
+                color: var(--link-hover-color);
+            }
+        }
+    }
+}
+
+.widget > ul li {
+    &.recentcomments {
+        padding-left: 0
+    }
+}
+
+@media(max-width: 992px) {
+    .wrap-form-lb-search .btn-close-lb-search {
+        right: 0;
+        top: 0
+    }
+}
+.widget_calendar {
+    caption{
+        color: var(--black-color);
+    }
+}
+/*End Css search lightbox*/
+/*End Widget*/
+.zoo-image-hover{
+    a{
+        display: inline-block;
+    }
+}
+.footer-logo img{
+    max-width: 65px;
+}
+.footer-row .zoo_imghover_widget.widget{
+    margin-bottom: 15px;
+}

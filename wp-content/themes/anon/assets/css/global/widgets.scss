@@ -1,0 +1,483 @@
+.sidebar, .wpb_widgetised_column, .elementor-widget-sidebar {
+    .widget {
+        margin-bottom: 30px;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 30px;
+    }
+    a {
+        color: var(--link-color);
+        &:hover {
+            color: var(--link-hover-color);
+        }
+    }
+}
+
+.widget {
+    .widget-title {
+        margin-bottom: 20px;
+        font-weight: 500;
+        @include px2rem(18);
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 10px;
+        &:after{
+            content: '';
+            border-bottom: 2px solid;
+            width: 50px;
+            position: absolute;
+            left: 0;
+            bottom:0;
+        }
+    }
+    & > ul {
+        margin: 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        & > li:first-child {
+            padding-top: 0;
+        }
+        li {
+            list-style: none;
+            padding: 8px 0;
+            ul {
+                margin-top: 8px
+            }
+            li:last-child {
+                padding-bottom: 0;
+            }
+        }
+        & > li {
+            border-bottom: 1px dotted var(--border-color);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            &:last-child {
+                border: none;
+                padding-bottom: 0;
+            }
+            &:first-child {
+                padding-top: 0
+            }
+            &>.toggle-view{
+                top:15px;
+            }
+        }
+    }
+    select, .search-form {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+.toggle-view {
+    background: none;
+    color: var(--black-color);
+    position: absolute;
+    right: -5px;
+    top: 8px;
+    @include px2rem(12);
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    width: 25px;
+    min-width: 25px;
+    text-align: center;
+    &.active {
+        &:before {
+            content: $icon_up;
+        }
+    }
+}
+
+.sidebar {
+    .widget {
+        a {
+            color: var(--link-color);
+            &:hover {
+                color: var(--link-hover-color);
+                &:before {
+                    background: var(--link-hover-color);
+                }
+            }
+        }
+    }
+    .widget_rss {
+        li .rsswidget {
+            color: var(--black-color);
+            font-weight: 500;
+            &:hover {
+                color: var(--accent-color);
+            }
+        }
+    }
+}
+
+.widget_categories, .widget_nav_menu, .widget_pages {
+    li {
+        position: relative;
+    }
+    ul ul {
+        display: none;
+    }
+}
+.widget_categories > ul li, .widget_archive li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position:relative;
+    ul {
+        width: 100%;
+    }
+}
+.cat-item, .widget_archive li {
+    span.count {
+        color: var(--black-color);
+        @include px2rem(10);
+        position: static;
+        background: var(--bg-block-color);
+        margin-left: 6px;
+        height: 14px;
+        line-height: 14px;
+        min-width: 14px;
+        padding: 0 2px;
+        text-align: center;
+        margin-right: 30px;
+        &:last-child{
+            margin:0
+        }
+    }
+}
+
+.widget_nav_menu > div {
+    & > ul > li:first-child {
+        & > .toggle-view {
+            top: 0
+        }
+    }
+}
+
+.widget_categories, .widget_pages {
+    & > ul > li:first-child {
+        & > .toggle-view {
+            top: 0
+        }
+    }
+    a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.widget_meta, .widget_categories, .widget_archive, .widget_nav_menu, .widget_pages {
+    li {
+        ul {
+            margin-left: 0;
+            padding-left: 15px;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.zoo-icon-field {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    .wrap-icon-item {
+        float: left;
+        width: 50px;
+        padding-top: 5px;
+        i {
+            color: var(--black-color);
+            font-size: 2rem;
+        }
+    }
+    .wrap-text-content {
+        width: calc(100% - 50px);
+        float: left;
+    }
+    h4.widget-title {
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+}
+
+.zoo-posts-widget {
+    width: 100%;
+    display: inline-block;
+    .post-widget-item {
+        margin-bottom: 25px;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        border: none;
+        a {
+            color: var(--black-color);
+            &:hover {
+                color: var(--accent-color);
+            }
+        }
+    }
+    .post-widget-image {
+        float: left;
+        width: 75px;
+        overflow: hidden;
+    }
+    .post-widget-item-text {
+        width: calc(100% - 75px);
+        float: left;
+        padding-left: 20px;
+    }
+    .no-thumb {
+        .post-widget-item-text {
+            padding: 0;
+            width: 100%;
+        }
+    }
+    .title-post {
+        @include px2rem(14);
+        color: $title_color;
+        margin-bottom: 0;
+        display: inline-block;
+        a {
+            color: inherit;
+            line-height: 1.5;
+        }
+        &:hover {
+            color: var(--black-color);
+        }
+    }
+    .date-post {
+        i {
+            margin-right: 3px;
+        }
+        @include px2rem(12);
+        width: 100%;
+        line-height: 15px;
+        display: inline-block;
+        margin-bottom: 5px;
+        float: left;
+    }
+}
+
+.widget {
+    .tagcloud {
+        font-size: 0;
+        a {
+            font-size: 14px !important;
+            border:1px solid var(--border-color);
+            padding: 3px 10px;
+            line-height: 20px;
+            margin: 5px 10px 5px 0;
+            display: inline-block;
+            color: var(--black-color);
+            &:hover {
+                color: var(--white-color);
+                background: var(--black-color);
+                border-color:var(--black-color);
+            }
+        }
+    }
+}
+
+.zoo-wrap-pagination {
+    &.simple {
+        width: 100%;
+        display: inline-block;
+        .next-page {
+            float: right;
+            text-align: right;
+        }
+        .prev-page {
+            text-align: left;
+            float: left;
+        }
+        a {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: $title_color;
+            border-bottom: 2px solid $title_color;
+            &:hover {
+                border-color: var(--black-color);
+                color: var(--black-color);
+            }
+        }
+    }
+}
+
+/* Rss widget*/
+.widget_rss {
+    .widget-title {
+        a {
+            display: inline-block;
+            color: inherit
+        }
+    }
+    & > ul li {
+        margin-bottom: 15px;
+    }
+    li {
+        .rsswidget {
+            width: 100%;
+            display: inline-block;
+            @include px2rem(16);
+            line-height: 1.5;
+            margin-bottom: 5px;
+        }
+    }
+    .rss-date {
+        color: $date_post;
+        @include px2rem(12);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .rssSummary {
+        padding: 5px 0
+    }
+}
+
+/* End Rss widget*/
+/*Widget menu*/
+.widget_nav_menu, .elementor-widget-wp-widget-nav_menu {
+    ul.menu {
+        margin-left: 0;
+        & > li:first-child {
+            padding-top: 0;
+        }
+    }
+    li {
+        list-style: none;
+        padding: 8px 0;
+        ul {
+            margin-top: 10px;
+        }
+        li:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.sidebar {
+    .widget_nav_menu {
+        li {
+            a {
+                color: $sec_accent_color;
+                &:hover {
+                    color: var(--black-color);
+                }
+            }
+        }
+    }
+}
+
+/*End Widget menu*/
+/*Search form*/
+.custom-search-form {
+    position: relative;
+    input {
+        border-color: $border-color;
+        margin: 0;
+        height: 45px;
+        line-height: 45px;
+    }
+    button {
+        position: absolute;
+        color: var(--black-color);
+        right: 0;
+        top: calc(50% - 20px);
+        border: none;
+        font-size: 1rem;
+        background: none;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        padding: 0;
+        text-align: center;
+        &:hover {
+            background: none;
+            color: $sec_accent_color;
+        }
+    }
+}
+
+/*End Search form*/
+
+/*Widget download*/
+.zoo_download_block {
+    .text-download {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        display: block;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        font-size: 0.933rem;
+        padding: 0 0 0 20px;
+        background: var(--black-color);
+        color: var(--white-color);
+        text-transform: uppercase;
+        white-space: nowrap;
+        i {
+            padding-right: 30px;
+            font-size: 1.4rem;
+        }
+        &:hover {
+            background: $title_color;
+            color: var(--white-color);
+        }
+    }
+}
+
+.zoo-list-payment-method {
+    .payment-method {
+        list-style: none;
+        margin: 0 10px 0 0;
+        display: inline-block;
+        width: 45px;
+        height: 30px;
+        line-height: 25px;
+        padding: 5px 8px !important;
+        border-radius: 3px;
+    }
+}
+
+/*Recent Comment*/
+.widget_recent_comments {
+    a {
+        color: var(--black-color);
+    }
+    .comment-author-link {
+        a:hover {
+            color: var(--black-color)
+        }
+    }
+}
+
+.widget_tag_cloud {
+    .tagcloud {
+        padding: 10px 0
+    }
+}
+
+.widget_archive, .widget_categories {
+    select {
+        margin-top: 5px
+    }
+}
+
+.widget_calendar {
+    .calendar_wrap {
+        width: 100%;
+        display: inline-block;
+    }
+    table {
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,566 @@
+# Copyright (C) 2019 CleverAddon
+# This file is distributed under the same license as the Clever Layered Navigation plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clever Layered Navigation 1.3.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/clever-layered-navigation\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-29T07:39:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: clever-layered-navigation\n"
+
+#. Plugin Name of the plugin
+#: admin/hook.php:23
+#: admin/hook.php:65
+#: templates/admin/tabs.php:13
+msgid "Clever Layered Navigation"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce AJAX Layered Navigation, WooCommerce Product Filter adds advanced product filtering to your WooCommerce shop. <a href=\"https://cleveraddon.com\" target=\"_blank\">Documentation</a> | <a href=\"https://cleveraddon.com\" target=\"_blank\">ChangeLogs</a>"
+msgstr ""
+
+#. Author of the plugin
+msgid "CleverAddon"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://cleveraddon.com/"
+msgstr ""
+
+#: frontend/ajax.php:17
+msgid "Invalid request data!"
+msgstr ""
+
+#: clever-layered-navigation.php:60
+msgid "Clever Layered Navigation requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#: admin/hook.php:24
+msgid "All Preset Filter"
+msgstr ""
+
+#: admin/hook.php:65
+#: templates/admin/tabs.php:13
+msgid "Version"
+msgstr ""
+
+#: admin/hook.php:66
+msgid "Add New"
+msgstr ""
+
+#: admin/list-table.php:15
+#: templates/view.php:126
+msgid "Filter"
+msgstr ""
+
+#: admin/list-table.php:16
+msgid "Filters"
+msgstr ""
+
+#: admin/list-table.php:32
+msgid "No item found!"
+msgstr ""
+
+#: admin/list-table.php:53
+msgid "Name"
+msgstr ""
+
+#: admin/list-table.php:54
+msgid "ShortCode"
+msgstr ""
+
+#: admin/list-table.php:70
+msgid "Edit"
+msgstr ""
+
+#: admin/list-table.php:71
+#: admin/list-table.php:78
+#: templates/admin/filter-setting/review.php:92
+#: templates/admin/filter-setting/attribute.php:102
+#: templates/admin/filter-setting/range-slider.php:128
+#: templates/admin/filter-setting/cw-attribute.php:125
+#: templates/admin/filter-setting/on-sale.php:82
+#: templates/admin/filter-setting/price.php:57
+#: templates/admin/filter-setting/active-filter.php:77
+#: templates/admin/filter-setting/tags.php:128
+#: templates/admin/filter-setting/in-stock.php:82
+#: templates/admin/filter-setting/categories.php:142
+#: templates/admin/filter-setting/rating.php:89
+msgid "Delete"
+msgstr ""
+
+#: admin/widget.php:16
+msgid "+ Clever Layered Navigation Filter"
+msgstr ""
+
+#: admin/widget.php:17
+msgid "Display filter follow filter preset."
+msgstr ""
+
+#: templates/admin/filter-style.php:21
+msgid "Max height"
+msgstr ""
+
+#: templates/admin/filter-style.php:26
+msgid "max height (px)"
+msgstr ""
+
+#: templates/admin/filter-style.php:27
+msgid "Max height of the filter."
+msgstr ""
+
+#: templates/admin/filter-style.php:33
+msgid "Filter view style"
+msgstr ""
+
+#: templates/admin/filter-style.php:37
+msgid "Horizontal"
+msgstr ""
+
+#: templates/admin/filter-style.php:38
+msgid "Vertical"
+msgstr ""
+
+#: templates/admin/filter-style.php:41
+msgid "Type display of filter"
+msgstr ""
+
+#: templates/admin/filter-style.php:47
+msgid "Number of column"
+msgstr ""
+
+#: templates/admin/filter-style.php:51
+msgid "column"
+msgstr ""
+
+#: templates/admin/filter-style.php:52
+#: templates/admin/filter-style.php:53
+#: templates/admin/filter-style.php:54
+#: templates/admin/filter-style.php:55
+#: templates/admin/filter-style.php:56
+msgid "columns"
+msgstr ""
+
+#: templates/admin/filter-style.php:59
+msgid "Number column display of layout horizontal"
+msgstr ""
+
+#: templates/admin/filter-style.php:65
+msgid "Add primary filter"
+msgstr ""
+
+#: templates/admin/filter-style.php:70
+msgid "Work with layout horizontal. If check, a new filter layer Primary will show. All filter on that layer will default visible. Display out side column of layout horizontal."
+msgstr ""
+
+#: templates/admin/filter-style.php:76
+msgid "Always visible"
+msgstr ""
+
+#: templates/admin/filter-style.php:81
+msgid "If check, filter with horizontal layout will always show."
+msgstr ""
+
+#: templates/admin/filter-style.php:88
+#: templates/admin/advanced-setting.php:100
+#: templates/admin/general-setting.php:42
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/tabs.php:17
+msgid "General Setting"
+msgstr ""
+
+#: templates/admin/tabs.php:18
+msgid "Filter Style"
+msgstr ""
+
+#: templates/admin/tabs.php:19
+msgid "Filter Setting"
+msgstr ""
+
+#: templates/admin/tabs.php:20
+msgid "Advanced Setting"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:19
+msgid "Enable Ajax"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:24
+msgid "If checked, products will be loaded syncronously. No page reload."
+msgstr ""
+
+#: templates/admin/advanced-setting.php:30
+msgid "Logic Operator"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:34
+msgid "AND"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:35
+msgid "OR"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:38
+msgid "`AND` shows products that satisfy all active filters. `OR` shows products that satisfy one of active filters"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:44
+msgid "Jquery Selector Products"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:49
+msgid "Use for append content after filter."
+msgstr ""
+
+#: templates/admin/advanced-setting.php:55
+msgid "Jquery Selector Products Count"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:60
+msgid "Use for append products counts content after filter."
+msgstr ""
+
+#: templates/admin/advanced-setting.php:66
+msgid "Jquery Selector Paging"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:71
+msgid "Use for append paging content after filter."
+msgstr ""
+
+#: templates/admin/advanced-setting.php:77
+msgid "Custom JS Before Filtering"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:82
+msgid "Add your custom JavaScript code here. This code will run before filter(s) get triggered."
+msgstr ""
+
+#: templates/admin/advanced-setting.php:88
+msgid "Custom JS After Filtering"
+msgstr ""
+
+#: templates/admin/advanced-setting.php:93
+msgid "Add your custom JavaScript code here. This code will run after filter(s) get triggered."
+msgstr ""
+
+#: templates/admin/filter-setting.php:34
+msgid "Available Filter"
+msgstr ""
+
+#: templates/admin/filter-setting.php:39
+msgid "To activate a filter drag it to a Filter Layer or click on it. To deactivate a item and delete its settings, drag it back."
+msgstr ""
+
+#: templates/admin/filter-setting.php:114
+msgid "Add filter item here to to active it."
+msgstr ""
+
+#: templates/admin/general-setting.php:17
+msgid "Filter Title"
+msgstr ""
+
+#: templates/admin/general-setting.php:23
+msgid "Name of filter, and it use for generate shortcode slug."
+msgstr ""
+
+#: templates/admin/general-setting.php:30
+msgid "Instant Filtering"
+msgstr ""
+
+#: templates/admin/general-setting.php:35
+msgid "If check, filter will starting when you select to filter item. Work with out filter button"
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:49
+msgid "Reviews"
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:56
+#: templates/admin/filter-setting/attribute.php:57
+#: templates/admin/filter-setting/range-slider.php:76
+#: templates/admin/filter-setting/cw-attribute.php:66
+#: templates/admin/filter-setting/on-sale.php:54
+#: templates/admin/filter-setting/price.php:43
+#: templates/admin/filter-setting/active-filter.php:55
+#: templates/admin/filter-setting/tags.php:65
+#: templates/admin/filter-setting/in-stock.php:54
+#: templates/admin/filter-setting/categories.php:76
+#: templates/admin/filter-setting/rating.php:57
+msgid "Title"
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:60
+msgid "Review from."
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:64
+msgid "Review to."
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:75
+#: templates/admin/filter-setting/attribute.php:85
+#: templates/admin/filter-setting/range-slider.php:110
+#: templates/admin/filter-setting/cw-attribute.php:108
+#: templates/admin/filter-setting/on-sale.php:65
+#: templates/admin/filter-setting/tags.php:110
+#: templates/admin/filter-setting/in-stock.php:65
+#: templates/admin/filter-setting/categories.php:124
+#: templates/admin/filter-setting/rating.php:72
+msgid "Disable show/hide filter"
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:93
+#: templates/admin/filter-setting/attribute.php:103
+#: templates/admin/filter-setting/range-slider.php:129
+#: templates/admin/filter-setting/cw-attribute.php:126
+#: templates/admin/filter-setting/on-sale.php:83
+#: templates/admin/filter-setting/price.php:58
+#: templates/admin/filter-setting/active-filter.php:78
+#: templates/admin/filter-setting/tags.php:130
+#: templates/admin/filter-setting/in-stock.php:83
+#: templates/admin/filter-setting/categories.php:144
+#: templates/admin/filter-setting/rating.php:90
+msgid "Close"
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:96
+#: templates/admin/filter-setting/attribute.php:106
+#: templates/admin/filter-setting/range-slider.php:132
+#: templates/admin/filter-setting/cw-attribute.php:129
+#: templates/admin/filter-setting/on-sale.php:86
+#: templates/admin/filter-setting/price.php:61
+#: templates/admin/filter-setting/active-filter.php:81
+#: templates/admin/filter-setting/tags.php:134
+#: templates/admin/filter-setting/in-stock.php:86
+#: templates/admin/filter-setting/categories.php:148
+#: templates/admin/filter-setting/rating.php:93
+msgid "Save"
+msgstr ""
+
+#: templates/admin/filter-setting/review.php:103
+msgid "Filter product follow reviews."
+msgstr ""
+
+#: templates/admin/filter-setting/attribute.php:50
+#: templates/admin/filter-setting/attribute.php:61
+msgid "Attribute"
+msgstr ""
+
+#: templates/admin/filter-setting/attribute.php:76
+#: templates/admin/filter-setting/cw-attribute.php:99
+#: templates/admin/filter-setting/tags.php:99
+#: templates/admin/filter-setting/categories.php:113
+msgid "Show products count"
+msgstr ""
+
+#: templates/admin/filter-setting/attribute.php:113
+msgid "Allow user filter product by attributes."
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:52
+msgid "Range Slider"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:80
+msgid "Select a Range"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:82
+msgid "--Select--"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:91
+msgid "Unit"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:95
+msgid "Min Value"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:99
+msgid "Max Value"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:103
+msgid "Step Value"
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:115
+msgid "Range Slider only works with numeric attributes. No valid numeric attributes found."
+msgstr ""
+
+#: templates/admin/filter-setting/range-slider.php:139
+msgid "Range Slider is the best product filter for numeric attributes such as size, weight, height..."
+msgstr ""
+
+#: templates/admin/filter-setting/cw-attribute.php:59
+#: templates/admin/filter-setting/cw-attribute.php:70
+msgid "Swatch Attributes"
+msgstr ""
+
+#: templates/admin/filter-setting/cw-attribute.php:81
+msgid "Display Style"
+msgstr ""
+
+#: templates/admin/filter-setting/cw-attribute.php:83
+#: templates/admin/filter-setting/categories.php:95
+msgid "List"
+msgstr ""
+
+#: templates/admin/filter-setting/cw-attribute.php:84
+msgid "Inline"
+msgstr ""
+
+#: templates/admin/filter-setting/cw-attribute.php:89
+msgid "Swatch Size"
+msgstr ""
+
+#: templates/admin/filter-setting/cw-attribute.php:136
+msgid "Allow user filter products by attributes from Clever Swatches."
+msgstr ""
+
+#: templates/admin/filter-setting/on-sale.php:47
+msgid "On Sale"
+msgstr ""
+
+#: templates/admin/filter-setting/on-sale.php:93
+msgid "Show only product on sale after filter"
+msgstr ""
+
+#: templates/admin/filter-setting/price.php:36
+#: templates/view/active-filter/items.php:10
+msgid "Price"
+msgstr ""
+
+#: templates/admin/filter-setting/price.php:68
+msgid "Filter product follow price."
+msgstr ""
+
+#: templates/admin/filter-setting/active-filter.php:48
+msgid "Active Filter"
+msgstr ""
+
+#: templates/admin/filter-setting/active-filter.php:63
+msgid "Clear all button?"
+msgstr ""
+
+#: templates/admin/filter-setting/active-filter.php:88
+msgid "Display a list of active product filters."
+msgstr ""
+
+#: templates/admin/filter-setting/tags.php:58
+#: templates/view/active-filter/items.php:55
+msgid "Tags"
+msgstr ""
+
+#: templates/admin/filter-setting/tags.php:77
+msgid "Filter Tags"
+msgstr ""
+
+#: templates/admin/filter-setting/tags.php:79
+msgid "If no tags selected, all tags will be showed."
+msgstr ""
+
+#: templates/admin/filter-setting/tags.php:91
+msgid "No product tags found."
+msgstr ""
+
+#: templates/admin/filter-setting/tags.php:142
+msgid "Filter by product tags."
+msgstr ""
+
+#: templates/admin/filter-setting/in-stock.php:47
+msgid "In Stock"
+msgstr ""
+
+#: templates/admin/filter-setting/in-stock.php:93
+msgid "Show only product in stock after filter "
+msgstr ""
+
+#: templates/admin/filter-setting/categories.php:69
+#: templates/admin/filter-setting/categories.php:82
+#: templates/view/active-filter/items.php:72
+msgid "Categories"
+msgstr ""
+
+#: templates/admin/filter-setting/categories.php:92
+msgid "Display type"
+msgstr ""
+
+#: templates/admin/filter-setting/categories.php:96
+msgid "Multi select"
+msgstr ""
+
+#: templates/admin/filter-setting/categories.php:105
+msgid "Always show child"
+msgstr ""
+
+#: templates/admin/filter-setting/categories.php:156
+msgid "Filter by product categories."
+msgstr ""
+
+#: templates/admin/filter-setting/rating.php:50
+msgid "Rating"
+msgstr ""
+
+#: templates/admin/filter-setting/rating.php:61
+msgid "Default Rating"
+msgstr ""
+
+#: templates/admin/filter-setting/rating.php:100
+msgid "Filter product follow product rating"
+msgstr ""
+
+#: templates/view.php:163
+msgid "Apply"
+msgstr ""
+
+#: templates/view/active-filter/items.php:74
+msgid "Category"
+msgstr ""
+
+#: templates/view/active-filter/items.php:92
+msgid "On Sale Product Only"
+msgstr ""
+
+#: templates/view/active-filter/items.php:101
+msgid "In Stock Product Only"
+msgstr ""
+
+#: templates/view/active-filter/items.php:110
+msgid "Review From"
+msgstr ""
+
+#: templates/view/active-filter/items.php:119
+msgid "Rating From"
+msgstr ""
+
+#: templates/view/active-filter/items.php:131
+msgid "Clear All"
+msgstr ""
+
+#: templates/view/review.php:27
+msgid "From"
+msgstr ""
+
+#: templates/view/on-sale.php:26
+msgid "Show On Sale only"
+msgstr ""
+
+#: templates/view/price.php:26
+msgid "Price:"
+msgstr ""
+
+#: templates/view/in-stock.php:32
+msgid "Show in stock products only"
+msgstr ""

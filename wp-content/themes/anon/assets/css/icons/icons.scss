@@ -1,0 +1,180 @@
+@import "../theme/variables.scss";
+
+[class^="zoo-icon"]:before {
+  font-family: $font_icon_family;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="zoo-icon"] {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+.zoo-icon-menu:before {
+  content: $icon_menu;
+}
+
+.zoo-icon-cart:before {
+  content: $icon_cart;
+}
+
+.zoo-icon-heart:before {
+  content: $icon_heart;
+}
+
+.zoo-icon-heart-o:before {
+  content: $icon_heart_o;
+}
+
+.zoo-icon-refresh:before {
+  content: $icon_refresh;
+}
+
+.zoo-icon-user:before {
+  content: $icon_user;
+}
+
+.zoo-icon-search:before {
+  content: $icon_search;
+}
+
+.zoo-icon-filter:before {
+  content: $icon_filter;
+}
+
+.zoo-icon-eye:before {
+  content: $icon_eye;
+}
+
+.zoo-icon-close:before {
+  content: $icon_close;
+}
+
+.zoo-icon-plus:before {
+  content: $icon_plus;
+}
+
+.zoo-icon-minus:before {
+  content: $icon_minus;
+}
+
+.zoo-icon-up:before {
+  content: $icon_up;
+}
+
+.zoo-icon-down:before {
+  content: $icon_down;
+}
+
+.zoo-icon-caret-up:before {
+  content: $icon_caret_up;
+}
+
+.zoo-icon-caret-down:before {
+  content: $icon_caret_down;
+}
+
+.zoo-icon-arrow-up:before {
+  content: $icon_arrow_up;
+}
+
+.zoo-icon-arrow-down:before {
+  content: $icon_arrow_down;
+}
+
+.zoo-icon-arrow-left:before {
+  content: $icon_arrow_left;
+}
+
+.zoo-icon-arrow-right:before {
+  content: $icon_arrow_right;
+}
+
+.zoo-icon-long-arrow-left:before {
+  content: $icon_long_arrow_left;
+}
+
+.zoo-icon-long-arrow-right:before {
+  content: $icon_long_arrow_right;
+}
+
+.zoo-icon-share:before {
+  content: $icon_share;
+}
+
+.zoo-icon-facebook:before {
+  content: $icon_facebook;
+}
+
+.zoo-icon-twitter:before {
+  content: $icon_twitter;
+}
+
+.zoo-icon-googleplus:before {
+  content: $icon_googleplus;
+}
+
+.zoo-icon-instagram:before {
+  content: $icon_instagram;
+}
+
+.zoo-icon-pinterest:before {
+  content: $icon_pinterest;
+}
+
+.zoo-icon-skype:before {
+  content: $icon_skype;
+}
+
+.zoo-icon-vimeo:before {
+  content: $icon_vimeo;
+}
+
+.zoo-icon-youtube:before {
+  content: $icon_youtube;
+}
+
+.zoo-icon-xing:before {
+  content: $icon_xing;
+}
+
+.zoo-icon-tumblr:before {
+  content: $icon_tumblr;
+}
+
+.zoo-icon-linkedin:before {
+  content: $icon_linkedin;
+}
+
+.zoo-icon-github:before {
+  content: $icon_github;
+}
+
+.zoo-icon-foursquare:before {
+  content: $icon_foursquare;
+}
+
+.zoo-icon-flickr:before {
+  content: $icon_flickr;
+}
+
+.zoo-icon-dribbble:before {
+  content: $icon_dribbble;
+}
+
+.zoo-icon-email:before {
+  content: $icon_envelope;
+}
+
+.zoo-icon-rss:before {
+  content: $icon_rss;
+}
+.zoo-icon-clock:before {
+  content: $icon_clock;
+}

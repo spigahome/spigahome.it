@@ -1,0 +1,440 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-23 09:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: clever-swatches.php:71
+#, php-format
+msgid ""
+"CleverSwatches requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+
+#: includes/class-zoo-clever-swatches-admin-manager.php:261
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-zoo-clever-swatches-admin-manager.php:281
+#: templates/admin/product-page-add-image-color-selector.php:18
+#: templates/admin/product-page-custom-tab-fields.php:47
+#: templates/admin/product-page-edit-attr-fields.php:16
+#: templates/admin/attribute/add-swatch-display-type-selector.php:19
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:22
+msgid "Image"
+msgstr ""
+
+#. Name of the plugin
+#: includes/class-zoo-clever-swatches-admin-manager.php:385
+#: templates/admin/zoo-clever-swatches-settings-page.php:105
+msgid "CleverSwatches"
+msgstr ""
+
+#: templates/add-to-cart-button.php:18
+msgid "Add to cart"
+msgstr ""
+
+#: templates/add-to-cart-button.php:23
+msgid "Out of stock"
+msgstr ""
+
+#: templates/add-to-cart-button.php:28
+msgid "Select options"
+msgstr ""
+
+#: templates/shop-page-swatch-image.php:79
+msgid "Choose an option"
+msgstr ""
+
+#: templates/admin/product-page-add-image-color-selector.php:15
+#: templates/admin/product-page-edit-attr-fields.php:12
+#: templates/admin/attribute/option/add-default-swatch-option.php:15
+msgid "Display type"
+msgstr ""
+
+#: templates/admin/product-page-add-image-color-selector.php:17
+#: templates/admin/product-page-edit-attr-fields.php:15
+msgid "None"
+msgstr ""
+
+#: templates/admin/product-page-add-image-color-selector.php:19
+#: templates/admin/product-page-custom-tab-fields.php:48
+#: templates/admin/product-page-edit-attr-fields.php:17
+#: templates/admin/attribute/add-swatch-display-type-selector.php:20
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:23
+msgid "Color"
+msgstr ""
+
+#: templates/admin/product-page-add-image-color-selector.php:23
+#: templates/admin/product-page-custom-tab-fields.php:107
+#: templates/admin/product-page-custom-tab-fields.php:135
+#: templates/admin/product-page-edit-attr-fields.php:31
+#: templates/admin/attribute/option/add-default-swatch-option.php:18
+#: templates/admin/attribute/option/edit-default-swatch-option.php:24
+msgid "Select Image"
+msgstr ""
+
+#: templates/admin/product-page-add-image-color-selector.php:24
+#: templates/admin/product-page-custom-tab-fields.php:109
+#: templates/admin/product-page-custom-tab-fields.php:137
+#: templates/admin/product-page-edit-attr-fields.php:32
+#: templates/admin/attribute/option/add-default-swatch-option.php:19
+#: templates/admin/attribute/option/edit-default-swatch-option.php:25
+msgid "Browse"
+msgstr ""
+
+#: templates/admin/product-page-add-variation-gallery-option.php:15
+msgid "Variation Gallery Images"
+msgstr ""
+
+#: templates/admin/product-page-add-variation-gallery-option.php:25
+msgid "Add Variation Gallery Images"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:37
+msgid "Label"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:42
+msgid "Display Type"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:46
+msgid "Default(Select)"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:49
+#: templates/admin/attribute/add-swatch-display-type-selector.php:21
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:24
+msgid "Text"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:54
+msgid "Display Size"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:58
+#: templates/admin/product-page-custom-tab-fields.php:70
+#: templates/admin/product-page-custom-tab-fields.php:81
+msgid "Default Global"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:59
+#: templates/admin/zoo-clever-swatches-settings-page.php:179
+#: templates/admin/zoo-clever-swatches-settings-page.php:288
+#: templates/admin/zoo-clever-swatches-settings-page.php:350
+msgid "20px * 20px"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:60
+#: templates/admin/zoo-clever-swatches-settings-page.php:180
+#: templates/admin/zoo-clever-swatches-settings-page.php:289
+#: templates/admin/zoo-clever-swatches-settings-page.php:351
+msgid "40px * 40px"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:61
+#: templates/admin/zoo-clever-swatches-settings-page.php:181
+#: templates/admin/zoo-clever-swatches-settings-page.php:290
+#: templates/admin/zoo-clever-swatches-settings-page.php:352
+msgid "60px * 60px"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:66
+msgid "Display Shape"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:71
+msgid "Square"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:72
+msgid "Circle"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:77
+msgid "Show Attribute Name?"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:82
+#: templates/admin/zoo-clever-swatches-settings-page.php:197
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:83
+#: templates/admin/zoo-clever-swatches-settings-page.php:198
+msgid "No"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:106
+#: templates/admin/product-page-custom-tab-fields.php:134
+#: templates/admin/product-page-edit-attr-fields.php:28
+#: templates/admin/attribute/option/edit-default-swatch-option.php:21
+msgid "Select/Upload Image"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:113
+#: templates/admin/product-page-custom-tab-fields.php:141
+msgid "Choose Color"
+msgstr ""
+
+#: templates/admin/product-page-custom-tab-fields.php:157
+msgid "No available variation for swath images"
+msgstr ""
+
+#: templates/admin/product-page-edit-attr-fields.php:22
+#: templates/admin/attribute/option/edit-default-swatch-option.php:15
+msgid "Select Color"
+msgstr ""
+
+#: templates/admin/product-page-variation-gallery-output.php:19
+msgid "Delete image"
+msgstr ""
+
+#: templates/admin/product-page-variation-gallery-output.php:20
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:96
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:120
+msgid "Global Settings"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:129
+msgid "Enable Tooltip"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:132
+msgid "Enable the use of tooltip"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:136
+msgid "Enable CleverSwatch"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:139
+msgid "Enable the use of CleverSwatch"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:143
+msgid "Enable Variation Gallery Images"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:146
+msgid "Uncheck if you don’t like to use variation wise gallery."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:150
+msgid ""
+"Please go to the attribute settings for setting up global term thumbnails."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:151
+msgid "Click Here"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:154
+msgid "Single Product Page"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:166
+#: templates/admin/zoo-clever-swatches-settings-page.php:275
+#: templates/admin/zoo-clever-swatches-settings-page.php:337
+msgid "Swatch display shape"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:169
+#: templates/admin/zoo-clever-swatches-settings-page.php:278
+#: templates/admin/zoo-clever-swatches-settings-page.php:340
+msgid "SQUARE"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:170
+#: templates/admin/zoo-clever-swatches-settings-page.php:279
+#: templates/admin/zoo-clever-swatches-settings-page.php:341
+msgid "CIRCLE"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:172
+#: templates/admin/zoo-clever-swatches-settings-page.php:281
+#: templates/admin/zoo-clever-swatches-settings-page.php:343
+msgid "Shape of attribute Swatch."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:176
+#: templates/admin/zoo-clever-swatches-settings-page.php:285
+#: templates/admin/zoo-clever-swatches-settings-page.php:347
+msgid "Swatch display size"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:182
+#: templates/admin/zoo-clever-swatches-settings-page.php:291
+#: templates/admin/zoo-clever-swatches-settings-page.php:353
+msgid "Custom"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:190
+#: templates/admin/zoo-clever-swatches-settings-page.php:299
+#: templates/admin/zoo-clever-swatches-settings-page.php:361
+msgid "Size of attribute Swatch."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:194
+msgid "Swatch show name?"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:201
+msgid "Show name of attribute Swatch."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:205
+msgid "CSS class Wrapper jQuery Selector"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:209
+msgid ""
+"Enter custom wrapper jQuery selector of product gallery if the default "
+"setting is not working. Default selector: .images"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:216
+msgid "Enable Swatches Gallery"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:219
+msgid ""
+"Check if you want to use swatches gallery. Clever Swatches gallery will "
+"replace default product gallery of theme"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:226
+msgid "Swatches Gallery Layout"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:229
+msgid "Horizontal"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:230
+msgid "Vertical"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:232
+msgid ""
+"Layout of Swatches gallery. It work when Enable Swatches Gallery checked."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:237
+msgid "Shop Page"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:250
+msgid "Show Swatch on shop/archive pages"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:254
+#: templates/admin/zoo-clever-swatches-settings-page.php:307
+#: templates/admin/zoo-clever-swatches-settings-page.php:330
+msgid "NO"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:255
+#: templates/admin/zoo-clever-swatches-settings-page.php:308
+#: templates/admin/zoo-clever-swatches-settings-page.php:331
+msgid "YES"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:257
+msgid "Show swatch on shop page or not."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:261
+msgid "Swatch on shop page hook to:"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:265
+msgid "woocommerce_before_shop_loop_item_title"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:266
+msgid "woocommerce_after_shop_loop_item_title"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:267
+msgid "Use Shortcode"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:270
+msgid "Use this short code: [zoo_cw_shop_swatch]"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:303
+msgid "Show Add To Cart button on shop page?"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:310
+msgid "Show add to cart button on shop page or not."
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:315
+msgid "Cart Page"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:326
+msgid "Show Swatch on cart page?"
+msgstr ""
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:333
+msgid "Show swatch on cart page or not."
+msgstr ""
+
+#: templates/admin/attribute/add-swatch-display-type-selector.php:16
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:17
+msgid "CleverSwatches Type"
+msgstr ""
+
+#: templates/admin/attribute/add-swatch-display-type-selector.php:18
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:21
+msgid "Select"
+msgstr ""
+
+#: templates/admin/attribute/add-swatch-display-type-selector.php:23
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:26
+msgid "Display type of swatch attribute"
+msgstr ""
+
+#. Name of the plugin
+msgid "Clever Swatches"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Swatch color for your WooCommerce variable products. | <a href=\"http://doc."
+"zootemplate.com/cleverswatches/\">Documentation</a> | <a href=\"http://doc."
+"zootemplate.com/cleverswatches/#/changelog\">ChangeLogs</a>"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://cleverswatches.wp3.zootemplate.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "cleversoft.co"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "hello.cleversoft@gmail.com"
+msgstr ""

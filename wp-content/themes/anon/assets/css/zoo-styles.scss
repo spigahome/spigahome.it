@@ -1,0 +1,29 @@
+
+@import "theme/_variables.scss";
+@import "icons/icons.scss";
+// Typography
+@import "theme/_typo";
+//Base
+@import "global/bases";
+//Header
+@import "global/header";
+//Single post
+@import "global/single";
+//Comments
+@import "global/comments";
+//Widgets
+@import "global/widgets";
+//Blog loop
+@import "global/blog-loop";
+//Pages
+@import "global/pages";
+//Footer
+@import "global/footer";
+//Bases theme
+@import "theme/theme";
+//Responsive
+@import "global/responsive";
+//edd
+@import "edd/_edd";
+//contact
+@import "global/_contact";

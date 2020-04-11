@@ -1,0 +1,31 @@
+/* Better Font Rendering =========== */
+.better-font-rendering {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+//Icons content
+@import "theme/_variables.scss";
+
+@import "woocommerce/product_item";
+//css of product hover effect
+@import "woocommerce/product_hover_effect";
+//css of single product gallery
+@import "woocommerce/product_gallery";
+//css of single product tabs
+@import "woocommerce/product_tabs";
+//css for single product video
+@import "woocommerce/product_video";
+//css for single product extended button
+@import "woocommerce/single_product_extended_button";
+//css for single product
+@import "woocommerce/single_product";
+//css for cart,checkout,myaccount page
+@import "woocommerce/cart_page";
+//css for product quick view
+@import "woocommerce/product_quick_view";
+//css for product sidebar
+@import "woocommerce/product_sidebar";
+//css for products page
+@import "woocommerce/products";
+//css for wishlist compare popup
+@import "woocommerce/wlcp";

@@ -1,0 +1,399 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CleverSwatches\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-06 09:43+0000\n"
+"PO-Revision-Date: 2018-05-12 07:39+0000\n"
+"Last-Translator: spravce <inzerce@gmail.com>\n"
+"Language-Team: Čeština\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: clever-swatches.php:66
+#, php-format
+msgid ""
+"CleverSwatches requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+"CleverSwatches ke svému běhu potřebuje nainstalovaný a aktivní pluin "
+"WooCommerce. Stáhnout si jej můžete zde: %s."
+
+#: includes/class-zoo-clever-swatches-admin-manager.php:261
+msgid "Thumbnail"
+msgstr "Náhled"
+
+#: includes/class-zoo-clever-swatches-admin-manager.php:281
+#: templates/admin/product-page-add-image-color-selector.php:18
+#: templates/admin/product-page-custom-tab-fields.php:48
+#: templates/admin/product-page-edit-attr-fields.php:16
+#: templates/admin/attribute/add-swatch-display-type-selector.php:19
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:22
+msgid "Image"
+msgstr "Obrázek"
+
+#. Name of the plugin
+#: includes/class-zoo-clever-swatches-admin-manager.php:385
+#: templates/admin/zoo-clever-swatches-settings-page.php:99
+msgid "CleverSwatches"
+msgstr "CleverSwatches"
+
+#: templates/add-to-cart-button.php:18
+msgid "Add to cart"
+msgstr "Přidat do košíku"
+
+#: templates/add-to-cart-button.php:23
+msgid "Out of stock"
+msgstr "Vyprodáno"
+
+#: templates/add-to-cart-button.php:28
+msgid "Select options"
+msgstr "Zvolit variantu"
+
+#: templates/shop-page-swatch-image.php:68
+#: templates/woocommerce/single-product/add-to-cart/variable.php:133
+msgid "Choose an option"
+msgstr "Vyberte volbu"
+
+#: templates/admin/product-page-add-image-color-selector.php:15
+#: templates/admin/product-page-edit-attr-fields.php:12
+#: templates/admin/attribute/option/add-default-swatch-option.php:15
+msgid "Display type"
+msgstr "Typ zobrazení"
+
+#: templates/admin/product-page-add-image-color-selector.php:17
+#: templates/admin/product-page-edit-attr-fields.php:15
+msgid "None"
+msgstr "Není"
+
+#: templates/admin/product-page-add-image-color-selector.php:19
+#: templates/admin/product-page-custom-tab-fields.php:49
+#: templates/admin/product-page-edit-attr-fields.php:17
+#: templates/admin/attribute/add-swatch-display-type-selector.php:20
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:23
+msgid "Color"
+msgstr "Barva"
+
+#: templates/admin/product-page-add-image-color-selector.php:23
+#: templates/admin/product-page-custom-tab-fields.php:108
+#: templates/admin/product-page-custom-tab-fields.php:134
+#: templates/admin/product-page-edit-attr-fields.php:31
+#: templates/admin/attribute/option/add-default-swatch-option.php:18
+#: templates/admin/attribute/option/edit-default-swatch-option.php:24
+msgid "Select Image"
+msgstr "Vybrat obrázek"
+
+#: templates/admin/product-page-add-image-color-selector.php:24
+#: templates/admin/product-page-custom-tab-fields.php:110
+#: templates/admin/product-page-custom-tab-fields.php:136
+#: templates/admin/product-page-edit-attr-fields.php:32
+#: templates/admin/attribute/option/add-default-swatch-option.php:19
+#: templates/admin/attribute/option/edit-default-swatch-option.php:25
+msgid "Browse"
+msgstr "Procházet"
+
+#: templates/admin/product-page-add-variation-gallery-option.php:15
+msgid "Variation Gallery Images"
+msgstr "Galerie k variacím produktu"
+
+#: templates/admin/product-page-add-variation-gallery-option.php:25
+msgid "Add Variation Gallery Images"
+msgstr "Přidat galerii k variacím produktu"
+
+#: templates/admin/product-page-custom-tab-fields.php:38
+msgid "Label"
+msgstr "Štítek"
+
+#: templates/admin/product-page-custom-tab-fields.php:43
+msgid "Display Type"
+msgstr "Typ zobrazení"
+
+#: templates/admin/product-page-custom-tab-fields.php:47
+msgid "Default(Select)"
+msgstr "Výchozí (vybrat)"
+
+#: templates/admin/product-page-custom-tab-fields.php:50
+#: templates/admin/attribute/add-swatch-display-type-selector.php:21
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:24
+msgid "Text"
+msgstr "Text"
+
+#: templates/admin/product-page-custom-tab-fields.php:55
+msgid "Display Size"
+msgstr "Smazat velikost"
+
+#: templates/admin/product-page-custom-tab-fields.php:59
+#: templates/admin/product-page-custom-tab-fields.php:71
+#: templates/admin/product-page-custom-tab-fields.php:82
+msgid "Default Global"
+msgstr "Výchozí"
+
+#: templates/admin/product-page-custom-tab-fields.php:60
+#: templates/admin/zoo-clever-swatches-settings-page.php:166
+#: templates/admin/zoo-clever-swatches-settings-page.php:252
+#: templates/admin/zoo-clever-swatches-settings-page.php:314
+msgid "20px * 20px"
+msgstr "20px * 20px"
+
+#: templates/admin/product-page-custom-tab-fields.php:61
+#: templates/admin/zoo-clever-swatches-settings-page.php:167
+#: templates/admin/zoo-clever-swatches-settings-page.php:253
+#: templates/admin/zoo-clever-swatches-settings-page.php:315
+msgid "40px * 40px"
+msgstr "40px * 40px"
+
+#: templates/admin/product-page-custom-tab-fields.php:62
+#: templates/admin/zoo-clever-swatches-settings-page.php:168
+#: templates/admin/zoo-clever-swatches-settings-page.php:254
+#: templates/admin/zoo-clever-swatches-settings-page.php:316
+msgid "60px * 60px"
+msgstr "60px * 60px"
+
+#: templates/admin/product-page-custom-tab-fields.php:67
+msgid "Display Shape"
+msgstr "Tvar zobrazení"
+
+#: templates/admin/product-page-custom-tab-fields.php:72
+msgid "Square"
+msgstr "Čtverec"
+
+#: templates/admin/product-page-custom-tab-fields.php:73
+msgid "Circle"
+msgstr "Kruh"
+
+#: templates/admin/product-page-custom-tab-fields.php:78
+msgid "Show Attribute Name?"
+msgstr "Zobrazit název atributu?"
+
+#: templates/admin/product-page-custom-tab-fields.php:83
+#: templates/admin/zoo-clever-swatches-settings-page.php:184
+msgid "Yes"
+msgstr "Ano"
+
+#: templates/admin/product-page-custom-tab-fields.php:84
+#: templates/admin/zoo-clever-swatches-settings-page.php:185
+msgid "No"
+msgstr "Ne"
+
+#: templates/admin/product-page-custom-tab-fields.php:107
+#: templates/admin/product-page-custom-tab-fields.php:133
+#: templates/admin/product-page-edit-attr-fields.php:28
+#: templates/admin/attribute/option/edit-default-swatch-option.php:21
+msgid "Select/Upload Image"
+msgstr "Vybrat obrázky"
+
+#: templates/admin/product-page-custom-tab-fields.php:114
+#: templates/admin/product-page-custom-tab-fields.php:140
+msgid "Choose Color"
+msgstr "Zvolte barvu"
+
+#: templates/admin/product-page-custom-tab-fields.php:157
+msgid "No available variation for swath images"
+msgstr "K dispozici není žádná variace pro vkládání obrázků"
+
+#: templates/admin/product-page-edit-attr-fields.php:22
+#: templates/admin/attribute/option/edit-default-swatch-option.php:15
+msgid "Select Color"
+msgstr "Vybrat barvu"
+
+#: templates/admin/product-page-variation-gallery-output.php:19
+msgid "Delete image"
+msgstr "Smazat obrázek"
+
+#: templates/admin/product-page-variation-gallery-output.php:20
+msgid "Delete"
+msgstr "Smazat"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:90
+msgid "Settings Saved Successfully"
+msgstr "Nastavení bylo uloženo"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:114
+msgid "Global Settings"
+msgstr "Hlavní nastavení"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:123
+msgid "Enable CleverSwatch"
+msgstr "Aktivovat CleverSwatch"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:126
+msgid "Enable the use of CleverSwatch"
+msgstr "Zaškrtnutím políčka aktivujete funkci CleverSwatches"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:130
+msgid "Enable Variation Gallery Images"
+msgstr "Aktivovat galerii pro varianty"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:133
+msgid "Uncheck if you don’t like to use variation wise gallery."
+msgstr ""
+"Zaškrtnutím políčka se zobrazí u varianty produktu možnost vytvořit galerii "
+"pro danou variantu."
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:137
+msgid ""
+"Please go to the attribute settings for setting up global term thumbnails."
+msgstr "Projděte si, prosím, nastavení atributů pro nastavení typů zobrazení."
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:138
+msgid "Click Here"
+msgstr "Klikněte zde"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:141
+msgid "Single Product Page"
+msgstr "Stránka produktu"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:153
+#: templates/admin/zoo-clever-swatches-settings-page.php:239
+#: templates/admin/zoo-clever-swatches-settings-page.php:301
+msgid "Swatch display shape"
+msgstr "Typ zobrazení"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:156
+#: templates/admin/zoo-clever-swatches-settings-page.php:242
+#: templates/admin/zoo-clever-swatches-settings-page.php:304
+msgid "SQUARE"
+msgstr "ČTVEREC"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:157
+#: templates/admin/zoo-clever-swatches-settings-page.php:243
+#: templates/admin/zoo-clever-swatches-settings-page.php:305
+msgid "CIRCLE"
+msgstr "KRUH"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:159
+#: templates/admin/zoo-clever-swatches-settings-page.php:245
+#: templates/admin/zoo-clever-swatches-settings-page.php:307
+msgid "Shape of attribute Swatch."
+msgstr "V jakém tvaru se má volba varianty zobrazit."
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:163
+#: templates/admin/zoo-clever-swatches-settings-page.php:249
+#: templates/admin/zoo-clever-swatches-settings-page.php:311
+msgid "Swatch display size"
+msgstr "Velikost zobrazení"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:169
+#: templates/admin/zoo-clever-swatches-settings-page.php:255
+#: templates/admin/zoo-clever-swatches-settings-page.php:317
+msgid "Custom"
+msgstr "Vlastní"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:177
+#: templates/admin/zoo-clever-swatches-settings-page.php:263
+#: templates/admin/zoo-clever-swatches-settings-page.php:325
+msgid "Size of attribute Swatch."
+msgstr "V jaké velikosti se má volba varianty zobrazit."
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:181
+msgid "Swatch show name?"
+msgstr "Zobrazit i název varianty?"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:188
+msgid "Show name of attribute Swatch."
+msgstr "Zobrazí také textovou verzi varianty při výběru"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:192
+msgid "CSS class Wrapper jQuery Selector"
+msgstr "CSS třída Wrapper jQuery Selector"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:196
+msgid ""
+"Enter custom wrapper jQuery selector of product gallery if the default "
+"setting is not working. Default selector: .images"
+msgstr ""
+"Pokud výchozí nastavení nefunguje, zadejte volitelnou třídu jQuery Wrapper v "
+"galerii produktů. Výchozí třída: .images"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:201
+msgid "Shop Page"
+msgstr "Stránka obchodu"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:214
+msgid "Show Swatch on shop/archive pages"
+msgstr "Zobrazit varianty v shopu/archívu?"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:218
+#: templates/admin/zoo-clever-swatches-settings-page.php:271
+#: templates/admin/zoo-clever-swatches-settings-page.php:294
+msgid "NO"
+msgstr "NE"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:219
+#: templates/admin/zoo-clever-swatches-settings-page.php:272
+#: templates/admin/zoo-clever-swatches-settings-page.php:295
+msgid "YES"
+msgstr "ANO"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:221
+msgid "Show swatch on shop page or not."
+msgstr "Zvolte, zda se má zobrazovat i na stránce shopu a v archívu"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:225
+msgid "Swatch on shop page hook to:"
+msgstr "Zvolte hook, do kterého se má výběr umístit:"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:229
+msgid "woocommerce_before_shop_loop_item_title"
+msgstr "woocommerce_before_shop_loop_item_title"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:230
+msgid "woocommerce_after_shop_loop_item_title"
+msgstr "woocommerce_after_shop_loop_item_title"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:231
+msgid "Use Shortcode"
+msgstr "Pomocí shortcode"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:234
+msgid "Use this short code: [zoo_cw_shop_swatch]"
+msgstr "Pro zobrazení výběru použijte tento shortcode: [zoo_cw_shop_swatch]"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:267
+msgid "Show Add To Cart button on shop page?"
+msgstr "Povolit tlačítko Přidat do košíku?"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:274
+msgid "Show add to cart button on shop page or not."
+msgstr ""
+"Při povolení bude moci uživatel na stránce shopu vybrat variantu a rovnou ji "
+"přidat do košíku bez nutnosti navštívit stránku produktu."
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:279
+msgid "Cart Page"
+msgstr "Stránka košíku"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:290
+msgid "Show Swatch on cart page?"
+msgstr "Má se výběr zobrazit v Košíku?"
+
+#: templates/admin/zoo-clever-swatches-settings-page.php:297
+msgid "Show swatch on cart page or not."
+msgstr "Povolte, pokud chcete výběr zobrazit na stránce košíku."
+
+#: templates/admin/attribute/add-swatch-display-type-selector.php:16
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:17
+msgid "CleverSwatches Type"
+msgstr "Typ CleverSwatches "
+
+#: templates/admin/attribute/add-swatch-display-type-selector.php:18
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:21
+msgid "Select"
+msgstr "Vybrat"
+
+#: templates/admin/attribute/add-swatch-display-type-selector.php:23
+#: templates/admin/attribute/edit-swatch-display-type-selector.php:26
+msgid "Display type of swatch attribute"
+msgstr "Typ zobrazení atributu"
+
+#. Description of the plugin
+msgid "Swatch color for your woocommerce variable products."
+msgstr "Efektivní zobrazení variant produktu."
+
+#. Author of the plugin
+msgid "cleversoft.co <hello.cleversoft@gmail.com>"
+msgstr "cleversoft.co <hello.cleversoft@gmail.com>"

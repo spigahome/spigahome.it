@@ -1,0 +1,13 @@
+#elementor-controls {
+    .elementor-control {
+        &.elementor-hidden-control {
+            &.elementor-control-heading_color,
+            &.elementor-control-color_text,
+            &.elementor-control-color_link,
+            &.elementor-control-color_link_hover,
+            &.elementor-control-text_align {
+                display: block;
+            }
+        }
+    }
+}

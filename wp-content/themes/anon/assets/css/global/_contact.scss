@@ -1,0 +1,53 @@
+.zoo-contact-button{
+    position: fixed;
+    bottom:50px;
+    animation: shake-flip 1s infinite;
+    z-index: 2;
+    &.right{
+        right: 50px;
+    }
+    &.left{
+        left: 50px;
+    }
+    .zoo-contact-link{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 30px;
+        color: var(--white-color);
+        transition: all 300ms;
+        box-shadow: 0 0 10px $black_transparent_1;
+        position: relative;
+        &.phone-button{
+            background: #75eb50;
+        }
+        &.email-button{
+            background: #ff643a;
+        }&.skype-button{
+            background: #00aff1;
+        }&.messenger-button{
+            background: #0084ff;
+        }&.whatsapp-button{
+            background: #25d466;
+        }
+        &:hover{
+            box-shadow: 0 0 10px $black_transparent_2;
+        }
+        &:before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            background: inherit;
+            animation: zoom-in 1200ms infinite;
+            z-index: -1;
+            border-radius: 50%;
+            left: 0;
+            top:0;
+        }
+    }
+}

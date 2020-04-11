@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+.zoo-cw-collapse p {
+  margin: 0px !important;
+}
+
+#zoo-cw-accordion, .zoo-cw-sub-accordion {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.zoo-cw-panel-heading h4, .zoo-cw-sub-panel-heading h4 {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.zoo-cw-collapse, .zoo-cw-sub-collapse {
+  display: none;
+  border: 1px solid #cccccc;
+  border-top: 0px;
+}
+
+.zoo-cw-collapse.zoo-cw-default, .zoo-cw-sub-collapse.zoo-cw-default {
+  display: block;
+}
+
+.zoo-cw-panel, .zoo-cw-sub-panel {
+  margin-bottom: 7px;
+}
+
+/*VARIABLE SWATCHES TABLE*/
+.zoo-cw-enable-swatch {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+table.zoo-cw-label-data,
+table.zoo-cw-attr-option {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.zoo-cw-label-data input,
+table.zoo-cw-label-data select,
+table.zoo-cw-attr-option input,
+table.zoo-cw-attr-option select {
+  max-width: 200px !important;
+  width: 100%;
+  font-size: 14px;
+}
+
+.zoo-cw-ds1 {
+  margin-right: 10px !important;
+}
+
+table.zoo-cw-label-data tbody tr:nth-of-type(2n) {
+  background: #f0f0f0 none repeat scroll 0 0;
+}
+
+table.zoo-cw-label-data tbody tr td,
+table.zoo-cw-attr-option tbody tr td {
+  padding: 5px 10px;
+}
+
+table.zoo-cw-attr-option img, button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.zoo-cw-attr-option tr:not(:first-child) {
+  border-top: 1px dashed #cccccc;
+}
+
+.zoo-cw-scimage-upload {
+  background: #3498db none repeat scroll 0 0;
+  border: 1px solid #3498db;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+table.zoo-cw-attr-option td:first-child {
+  width: 40%;
+}
+
+/*================================================
+=            VARIATION GALLERY IMAGES            =
+================================================*/
+.zoo-cw-variation-gallery-wrapper {
+  background: #d2d7d3 none repeat scroll 0 0;
+  padding: 10px 15px;
+}
+
+.zoo-cw-variation-gallery-container .product_images.ui-sortable {
+  margin: 0;
+}
+
+.zoo-cw-variation-gallery-container .product_images > li {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.zoo-cw-variation-gallery-container .product_images li img {
+  height: 100px;
+  width: 100px;
+}
+
+.zoo-cw-variation-gallery-container .product_images li ul.actions {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.zoo-cw-variation-gallery-container .product_images li ul.actions li a.zoo-cw-delete-gallery-image:hover::before {
+  color: #a00;
+}
+
+.zoo-cw-variation-gallery-container .product_images li ul.actions li a.zoo-cw-delete-gallery-image {
+  display: block;
+  font-size: 1.4em;
+  height: 1em;
+  position: relative;
+  text-indent: -9999px;
+  width: 1em;
+  cursor: pointer;
+}
+
+.zoo-cw-variation-gallery-container .product_images li ul.actions li a.zoo-cw-delete-gallery-image::before {
+  color: #999;
+  content: "";
+  background-image: url("../../images/var_close.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 15px;
+  left: 2px;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+/*=====  End of VARIATION GALLERY IMAGES  ======*/
+tr.zoo-cw-sci td:nth-child(2) > img {
+  margin-right: 10px;
+}

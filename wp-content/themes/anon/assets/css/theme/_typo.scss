@@ -1,0 +1,323 @@
+/* Better Font Rendering =========== */
+.better-font-rendering {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+}
+
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 18px;
+    color: $body-color;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+}
+
+* {
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+*:focus, *, *:active, a:focus, a:active, a {
+    outline: 0 !important;
+}
+::marker {
+    color: var(--black-color)
+}
+a:focus, a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a {
+    color: var(--black-color);
+    text-decoration: none;
+    @include transition-all(300ms);
+}
+
+a:hover {
+    color: $sec_color;
+}
+
+h1 {
+    @include px2rem(36)
+}
+
+h2 {
+    @include px2rem(30)
+}
+
+h3 {
+    @include px2rem(24)
+}
+
+h4 {
+    @include px2rem(20)
+}
+
+h5 {
+    @include px2rem(18)
+}
+
+h6 {
+    @include px2rem(16)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.27;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 500;
+    color: $title_color;
+}
+
+ul, ol, p, dl, pre {
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+dt {
+    font-weight: 500;
+    color: var(--black-color);
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-bottom: 15px;
+}
+ul{
+    margin-left: 18px;
+}
+ol{
+    margin-left: 0;
+    list-style-position: inside;
+    &>li>ul{
+        margin-left: 30px;
+    }
+}
+ul,ol{
+    ul, ol {
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+}
+ul > li {
+    list-style: disc;
+}
+
+li {
+    padding: 5px 0;
+    li{
+        &:last-child{
+            padding-bottom: 0;
+        }
+    }
+}
+
+code, kbd, pre, samp, tt {
+    font-family: monospace, serif;
+    hyphens: none;
+}
+
+code {
+    background: $bg_block;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+ins, pre {
+    background: $bg_block;
+}
+
+pre {
+    white-space: pre-wrap;
+    padding: 25px 35px;
+}
+
+var, cite, em {
+    font-style: italic;
+}
+
+cite {
+    font-weight: 500;
+}
+
+option {
+    padding: 5px 8px;
+    font-size: 0.87rem;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+select {
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    border: 1px solid var(--form-border-color);
+    color: var(--black-color);
+    background-color: white;
+    background-image: url("../images/down-arrow.svg");
+    background-position: 99% 50%;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a img {
+    display: block;
+}
+
+figure {
+    max-width: 100%;
+    margin: 0 0 30px
+}
+
+figcaption {
+    text-align: center;
+    @include px2rem(13)
+}
+
+blockquote, .blockquote {
+    position: relative;
+    padding: 5% 13%;
+    margin: 40px 0;
+    @include px2rem(24);
+    min-height: 50px;
+    text-align: center;
+    color: var(--black-color);
+    z-index: 1;
+    background:  #FFF3EE;
+    p:last-child {
+        margin: 0
+    }
+    &:before {
+        color: var(--quote-icon-color);
+        content: '\c267';
+        clear: both;
+        font-family: cleversoft;
+        @include px2rem(60);
+        width: 100%;
+        text-align: left;
+        display: block;
+        line-height: 1;
+    }
+    cite {
+        margin:15px auto 0;
+        font-weight: 500;
+        font-style: normal;
+        @include px2rem(13);
+        text-transform: uppercase;
+        color: var(--date-color);
+        position: relative;
+        padding-left: 40px;
+        display: inline-block;
+        &:before{
+            content: '';
+            border-bottom:1px solid var(--date-color);
+            position: absolute;
+            left: 0;
+            top:calc(50% - 1px);
+            display: block;
+            width:30px;
+        }
+        a{
+            color: inherit;
+            &:hover{
+                color:var(--black-color);
+            }
+        }
+    }
+}
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    text-align: left;
+    border-top: 1px solid var(--form-border-color);
+    border-left: 1px solid var(--form-border-color);
+    th, td {
+        padding: 8px;
+        border-right: 1px solid var(--form-border-color);
+    }
+    th {
+        color: var(--black-color);
+    }
+}
+
+tbody {
+    th, td {
+        border-bottom: 1px solid var(--form-border-color);
+    }
+}
+
+thead {
+    th, td {
+        border-bottom: 1px solid var(--form-border-color);
+        font-weight: 500;
+    }
+}
+
+.text-field, input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="tel"] {
+    height: 50px;
+    font-weight: normal;
+}
+
+.text-field, input[type="text"], input[type="search"], input[type="password"], textarea, input[type="email"], input[type="tel"] {
+    border: 1px solid var(--form-border-color);
+    padding: 10px 15px;
+    color: var(--black-color);
+    font-size: 1rem;
+    height: 50px;
+    line-height: 30px;
+    background: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    width: 100%;
+    margin-bottom: 30px;
+    @include transition(300ms ease-in-out);
+}
+
+.textarea, textarea {
+    height: auto;
+}

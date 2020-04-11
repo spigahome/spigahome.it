@@ -1,0 +1,24 @@
+2020-04-10T15:03:27+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /home/shothou9/domains/spigahome.it/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(213) : eval()'d code alla riga 1
+
+2020-04-10T15:03:55+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /home/shothou9/domains/spigahome.it/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(213) : eval()'d code alla riga 1
+
+2020-04-10T15:45:02+00:00 CRITICAL Uncaught Error: Class 'Cafe\Widgets\CleverWidgetBase' not found in /home/shothou9/domains/spigahome.it/wp-content/plugins/cafe-pro/src/widgets/class-clever-site-logo.php:11
+Stack trace:
+#0 /home/shothou9/domains/spigahome.it/wp-content/plugins/cafe-pro/src/class-clever-widgets-manager.php(78): require()
+#1 /home/shothou9/domains/spigahome.it/wp-includes/class-wp-hook.php(287): Cafe\WidgetsManagerPro->_registerWidgets(Object(Elementor\Widgets_Manager))
+#2 /home/shothou9/domains/spigahome.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/shothou9/domains/spigahome.it/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/shothou9/domains/spigahome.it/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#5 /home/shothou9/domains/spigahome.it/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#6 /home/shothou9/domains/spigahome.it/wp-content in /home/shothou9/domains/spigahome.it/wp-content/plugins/cafe-pro/src/widgets/class-clever-site-logo.php alla riga 11
+
+2020-04-10T15:45:10+00:00 CRITICAL Uncaught Error: Class 'Cafe\Widgets\CleverWidgetBase' not found in /home/shothou9/domains/spigahome.it/wp-content/plugins/cafe-pro/src/widgets/class-clever-site-logo.php:11
+Stack trace:
+#0 /home/shothou9/domains/spigahome.it/wp-content/plugins/cafe-pro/src/class-clever-widgets-manager.php(78): require()
+#1 /home/shothou9/domains/spigahome.it/wp-includes/class-wp-hook.php(287): Cafe\WidgetsManagerPro->_registerWidgets(Object(Elementor\Widgets_Manager))
+#2 /home/shothou9/domains/spigahome.it/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /home/shothou9/domains/spigahome.it/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/shothou9/domains/spigahome.it/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#5 /home/shothou9/domains/spigahome.it/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#6 /home/shothou9/domains/spigahome.it/wp-content in /home/shothou9/domains/spigahome.it/wp-content/plugins/cafe-pro/src/widgets/class-clever-site-logo.php alla riga 11
+

@@ -1,0 +1,192 @@
+/*General Settings*/
+.zoo-cw-heading-page{
+  padding:20px !important;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: none !important;
+  box-shadow: -1px 0 10px 5px #ebebeb;
+  margin-bottom: 10px  !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.zoo-cw-heading-page img{
+  margin-right:10px
+}
+.zoo-cw-settings-wrapper {
+  margin: 10px 20px 0 2px;
+}
+.zoo-cw-settings-container {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: -1px 0 10px 5px #ebebeb;
+}
+
+table.zoo-cw-settings-table {
+  width: 100%;
+}
+
+table.zoo-cw-settings-table tbody tr td {
+  display: table-cell;
+  padding: 10px 5px;
+  vertical-align: middle;
+}
+
+.zoo-cw-attr-image-uploader img,
+.zoo-cw-attr-image-uploader button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.zoo-cw-dt-option {
+  margin-top: 10px;
+}
+
+/*toggle Button*/
+.zoo-cw-settings-table .toggle input[type="checkbox"], .zoo-cw-settings-table .toggle input[type="radio"] {
+  height: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  text-indent: -100000px;
+  width: 0;
+}
+
+.zoo-cw-settings-table .toggle .handle::after, .zoo-cw-settings-table .toggle .handle::before {
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 25px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  -moz-transition: all 0.25s ease-in-out 0s;
+  -ms-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+  width: 25px;
+}
+
+.zoo-cw-settings-table .toggle .handle {
+  background-color: #fff;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -ms-border-radius: 19px;
+  border-radius: 19px;
+  box-shadow: 0 0 0 1px #dfdfdf inset;
+  display: block;
+  height: 27px;
+  left: 0;
+  position: relative;
+  top: -20px;
+  width: 50px;
+}
+
+.zoo-cw-settings-table .toggle input[type="checkbox"]:checked + .handle::before,
+.zoo-cw-settings-table .toggle input[type="radio"]:checked + .handle::before {
+  background-color: #039BE5;
+  width: 50px;
+}
+
+.zoo-cw-settings-table .toggle input[type="checkbox"]:checked + .handle::after,
+.zoo-cw-settings-table .toggle input[type="radio"]:checked + .handle::after {
+  left: 25px;
+}
+
+table.zoo-cw-settings-table {
+  background: #fff none repeat scroll 0 0;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+table.zoo-cw-settings-table tbody tr:nth-of-type(2n+1) {
+  background: #f9f9f9 none repeat scroll 0 0;
+}
+
+table.zoo-cw-settings-table tbody tr td label {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.zoo-cw-settings-table .toggle .handle {
+  top: 0px;
+}
+
+.zoo-cw-div-wrapper {
+  padding: 15px;
+}
+
+.zoo-cw-settings-header {
+  background-color: #fff;
+}
+
+h3.zoo-cw-heading {
+  background-color: #222B36;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 0;
+}
+.zoo-cw-button{
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 0.5px;
+  padding:10px 20px;
+  border:none;
+  transition: all 300ms;
+  box-shadow: -1px 0 10px 3px #ebebeb;
+  cursor: pointer;
+  font-weight: 600;
+}
+.zoo-cw-button.zoo-cw-submit{
+  background: #222B36;
+  color: #fff;
+}
+.zoo-cw-button:hover{
+  box-shadow: -1px 0 10px 3px #ccc;
+  color: #222B36;
+  background: #fff;
+}
+.zoo-cw-wrapper {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.zoo-cw-wrapper .wp-picker-container {
+  float: right;
+  margin-right: 5%;
+}
+.zoo-cw-settings-table input#zoo_cw_atds_cv {
+    vertical-align: middle;
+    width: 42px;
+}
+.zoo-cw-settings-table input#zoo_cw_atds_cv_w {
+    vertical-align: middle;
+    width: 42px;
+}
+.zoo-cw-settings-table tr td:first-child{
+  font-weight: 600;
+}
+.zoo-cw-settings-table .description{
+  display: inline-block;
+  margin-left: 10px;
+}
+.zoo-cw-settings-table select{
+  min-width: 150px;
+}
+/*media quaries*/
+@media only screen and (min-width: 768px) {
+  table.zoo-cw-settings-table tbody tr td:first-child {
+    width: 25%;
+  }
+  table.zoo-cw-settings-table tr td:nth-child(2) {
+    width: 75%;
+}
+}
