@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress' );
+define( 'DB_NAME', 'lowcarbeoltre' );
 
 /** MySQL database username */
 define( 'DB_USER', 'wordpress' );
@@ -62,9 +62,13 @@ define( 'WP_CACHE_KEY_SALT', 'Wg,atd,c9,DsonVcSNemhtGfr)o:Fd+8Yq7au z%{ wwVxKyGm
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'wpv6_';
 
-
+/** site url **/
+define('WP_HOME','https://spigahome.it');
+define('WP_SITEURL','https://spigahome.it');
+// define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+// define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/');
 
 
 /* That's all, stop editing! Happy publishing. */
