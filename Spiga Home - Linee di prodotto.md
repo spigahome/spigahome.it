@@ -44,7 +44,7 @@ prodotti:
 	- illustrazione: fetta di torta (scura)
 
 # Macinati a pietra
-## colore: ?? - illustrazione: macina a pietra per tutte (cambia solo il [colore)
+## colore: ?? - illustrazione: macina a pietra per tutte (cambia solo il colore)
 prodotti: 
 ###  farina tipo 00
 ###  farina tipo 1
