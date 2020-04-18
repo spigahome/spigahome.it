@@ -1,8 +1,8 @@
 Spiga Home - Linee di prodotto 
 
-#Low Carb 
-##colore: sfondo grigio, scritte bianche e gialle
-###prodotti: 
+# Low Carb 
+## colore: sfondo grigio, scritte bianche e gialle
+### prodotti: 
 - farina per il pane 
 	→ titolo: 
 	→ claim: pane focaccia e tanto altro
@@ -32,9 +32,9 @@ Spiga Home - Linee di prodotto
 	→ claim: 
 	→ illustrazione: tagliatelle
 
-#Senza Glutine
-##colore: sfondo bianco, scritte verdi o bordeaux
-###prodotti:
+# Senza Glutine
+## colore: sfondo bianco, scritte verdi o bordeaux
+### prodotti:
 - farina per il pane
 	→ illustrazione: pane / spighe / sacco di farina
 - farina per plum cake
@@ -42,9 +42,9 @@ Spiga Home - Linee di prodotto
 - farina per i dolci al cacao (o brownie)
 	→ illustrazione: fetta di torta (scura)
 
-#Macinati a pietra
-##colore: ?? → illustrazione: macina a pietra per tutte (cambia solo il [colore)
-###prodotti: 
+# Macinati a pietra
+## colore: ?? → illustrazione: macina a pietra per tutte (cambia solo il [colore)
+### prodotti: 
 - farina tipo 00
 - farina tipo 1
 - farina integrale
