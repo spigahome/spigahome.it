@@ -1,18 +1,19 @@
 
+
 Spiga Home - Linee di prodotto 
 
 # Low Carb 
 ## colore: sfondo grigio, scritte bianche e gialle
 prodotti: 
-### farina per il pane 
+### preparato per il pane 
 	- titolo: preparato per pane
 	- claim: pane focaccia e tanto altro
 	- illustrazione: pane / spighe / sacco di farina
-### farina per cracker (o cracker mix)
+### preparato per cracker (o cracker mix)
 	- titolo: 
 	- claim: spray & bake, cracker facili e veloci
 	- illustrazione: cracker 
-### farina per pizza
+### preparato per pizza
 	- titolo: 
 	- claim: 
 	- illustrazione: pizza 
@@ -36,11 +37,11 @@ prodotti:
 # Senza Glutine
 ## colore: sfondo bianco, scritte verdi o bordeaux
 prodotti:
-### farina per il pane
-	- illustrazione: pane / spighe / sacco di farina
-###  farina per plum cake
+### preparato per il pane
+	- illustrazione: pane / spighe / sacco di preparato
+###  preparato per plum cake
 	- illustrazione: fetta di torta (chiara)
-###  farina per i dolci al cacao (o brownie)
+###  preparato per i dolci al cacao (o brownie)
 	- illustrazione: fetta di torta (scura)
 
 # Macinati a pietra
