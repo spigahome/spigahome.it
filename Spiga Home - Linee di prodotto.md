@@ -5,7 +5,7 @@ Spiga Home - Linee di prodotto
 ## colore: sfondo grigio, scritte bianche e gialle
 prodotti: 
 ### farina per il pane 
-	- titolo: 
+	- titolo: preparato per pane
 	- claim: pane focaccia e tanto altro
 	- illustrazione: pane / spighe / sacco di farina
 ### farina per cracker (o cracker mix)
