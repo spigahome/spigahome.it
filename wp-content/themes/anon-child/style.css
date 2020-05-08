@@ -6,3 +6,18 @@
  * Template: anon
  * Version: 1.3.1
  */
+
+@font-face {
+    font-family: 'DGZanardini-Bold';
+    /* src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: /* url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/wp-content/themes/anon-child/font/DGZanardini-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/wp-content/themes/anon-child/font/DGZanardini-Bold.woff') format('woff');
+    /*,  Pretty Modern Browsers */
+    /* url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    /* url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.dgzanardini {
+    font-family: 'DGZanardini-Bold' !important;
+}
