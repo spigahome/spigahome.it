@@ -6,7 +6,7 @@ Spiga Home - Linee di prodotto
 ## colore: sfondo grigio, scritte bianche e gialle
 prodotti: 
 ### preparato per il pane 
-	- codice: LWCPREP01
+	- codice: LWC101
 	- titolo: preparato per pane
 	- claim: pane focaccia e tanto altro
 	- illustrazione: pane / spighe / sacco di farina
@@ -75,3 +75,6 @@ prodotti:
 	- codice: MCPINTEGRALE
 	- titolo:
 	- claim: 
+	
+
+
