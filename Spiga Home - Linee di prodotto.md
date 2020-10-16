@@ -12,6 +12,11 @@ prodotti:
 	- titolo: Preparato per pane Low Carb
 	- claim: una miscela semplice e genuina per fare con le tue mani un pane buono come quello artigianale
 	- illustrazione: pane / spighe / sacco di farina
+### pasta (LWC102)
+	- codice: LWC102
+	- titolo: Tagliatelle Low Carb
+	- claim:  un sostituto proteico perfetto per ridurre i carboidrati nella dieta senza eliminare la pasta
+	- illustrazione: tagliatelle
 ### preparato per cracker (o cracker mix) (LWC103)
 	- codice: LWC103
 	- titolo: Preparato per Cracker Spray&Bake
@@ -37,11 +42,6 @@ prodotti:
 	- titolo: 
 	- claim: 
 	- illustrazione: cracker
-### pasta (LWC102)
-	- codice: LWC102
-	- titolo: Tagliatelle Low Carb
-	- claim:  un sostituto proteico perfetto per ridurre i carboidrati nella dieta senza eliminare la pasta
-	- illustrazione: tagliatelle
 
 # Senza Glutine
 BARCODE: 20
