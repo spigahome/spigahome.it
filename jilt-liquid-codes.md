@@ -1,0 +1,21 @@
+# Snippet personalizzati per Jilt
+## Transactional - Rimborsato 
+link alla mail su Jilt: [Transactional - Rimborsato](https://app.jilt.com/shops/38254/campaigns/112991/emails/214239)
+
+### Intro
+```javascript
+{{ customer.first_name | prepend:"Ciao " | append:", " || default: "Eccoci" }}abbiamo disposto il rimborso per l'ordine {{ order.formatted_number }}. Qui sotto i dati dell'ordine.
+```
+### Alcuni nostri prodotti
+#### titolo:
+```javascript
+{% if product.id != 156 %} 
+{{ product.title }} 
+{% else %} Preparato per Pane 
+Low Carb {% endif %}
+```
+#### descrizione:
+```javascript
+{{ product.price | times:1.1 | money }}
+```
+
