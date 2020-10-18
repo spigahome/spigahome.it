@@ -36,7 +36,17 @@ link alla mail su Jilt: [Automation - Richiesta recensione](https://app.jilt.com
 
 ### Oggetto
 ```javascript
-Ciao{{ customer.first_name | prepend:" " | append:", " | default: "" }}che ne pensi {% if order.line_items[0].sku != "LWC102" %}del {% else %}delle {% endif %}{{ order.line_items[0].title }} Spiga Home? 
+Ciao{{ customer.first_name | prepend:" " | append:", " | default: "" }}che ne pensi {% if order.line_items.size > 1 %} 
+	{% assign handle = order.line_items[0].sku %}
+	{% case handle %}
+	  {% when "BIOREAL01" %}
+	     {% if order.line_items[1].sku != "LWC102" %}del {% else %}delle {% endif %}{{ order.line_items[1].title }}
+	  {% else %}
+	     {% if order.line_items[0].sku != "LWC102" %}del {% else %}delle {% endif %}{{ order.line_items[0].title }}
+	{% endcase %}
+{% else %}
+	{% if order.line_items[0].sku != "LWC102" %}del {% else %}delle {% endif %}{{ order.line_items[0].title }}
+{% endif %}?
 ```
 
 ### Intro - Titolone
@@ -103,14 +113,15 @@ Per noi è importante conoscere la tua esperienza e la tua creatività può esse
 ```
 
 #### N.B.
-aggiungere il link alla recensione (prima parte con item.):
+##### aggiungere il link alla recensione, prima parte con {{item.product_url}}:
 
 💌 Puoi raccontarci se ti è piaciuto [con una recensione]({{item.product_url}})
 
-aggiungere il link alla recensione (seconda parte con item.):
+aggiungere il link alla recensione, seconda parte con {{order.line_items[0].product_url}}:
+
 💌 Puoi raccontarci se ti è piaciuto [con una recensione]({{order.line_items[0].product_url}})
 
-#### Salvo il blocco HTML dell'ordine
+#### Salvo, come backup, il blocco HTML dell'ordine
 tabella che riepiloga gli elementi dell'ordine:
 ```html
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="auto" style="border-collapse: collapse;">
