@@ -47,47 +47,68 @@ Ciao{{ customer.first_name | prepend:" " | append:", " | default: "" }}che ne pe
 ### Testo portante
 ```javascript
 {% if order.line_items.size > 1 %} {% comment %} CICLO CON + RIGHINE {% endcomment %} Hai ordinato alcuni nostri prodotti ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
-{% for item in order.line_items %} {% if item.sku == "LWC101" %}
+{% assign reverse_line_items = order.line_items | sort: "sku" | reverse %} {% for item in reverse_line_items %} {% if item.sku == "LWC101" %}
 
-Com'è venuto il pane fatto con il {{ item.title }}?
+🍞Com'è venuto il pane fatto con il {{ item.title }}?
 
-🍞Puoi raccontarcelo con una recensione.
+Puoi raccontarcelo con una recensione e mandarci una foto delle tue creazioni.
 
 {% elsif item.sku == "LWC102" %}
 
-Ti sono piaciute le {{ item.title }}? Hai trovato il sugo perfetto per loro?
+🍝 Ti sono piaciute le {{ item.title }}? Hai trovato il sugo perfetto per loro?
 
-🍝 Scrivicelo siamo curiosi.
+Scrivicelo siamo curiosi!
+
+{% elsif item.sku == "LWC103" %}
+
+💌Ti sono piaciuti i Cracker Spray&Bake?
+
+Facci sapere, se vuoi puoi mandarci una foto.
 
 {% elsif item.sku == "BIOREAL01" %}
 
 🥧Con il {{ item.title }} cos'hai preparato? :)
 
-{% elsif item.sku == "LWC103" %}
+Racconta!
 
-💌Com'erano i cracker? Raccontacelo o mandaci una foto.
+{% endif %} {% endfor %}{% else %} {% comment %} UN SOLO PRODOTTINO {% endcomment %} {% if order.line_items[0].sku == "LWC101" %} {% comment %} TESTO LOWCARBINO {% endcomment %} Hai ordinato il nostro {{ order.line_items[0].title }} su Spiga Home ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
+Com'è venuto il pane?
 
-{% endif %} {% endfor %}{% else %} {% comment %} UN SOLO PRODOTTINO {% endcomment %} {% if order.line_items[0].sku == "LWC101" %} {% comment %} TESTO LOWCARBINO {% endcomment %} hai ordinato il nostro {{ order.line_items[0].title }} Spiga Home ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
-Com'è venuto?
+💌 Puoi raccontarci la tua esperienza con una recensione.
 
-💌 Puoi raccontarci se ti è piaciuto con una recensione.
-
-Se vuoi mandarci la tua ricetta, rispondi a questa mail. 
-{% elsif order.line_items[0].sku == "LWC102" %} {% comment %} TESTO TAGLIATELLINE {% endcomment %} hai ordinato le nostre {{ order.line_items[0].title }} Spiga Home ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
+Se vuoi puoi mandarci una foto delle tue creazioni rispondendo a questa mail. 
+{% elsif order.line_items[0].sku == "LWC102" %} {% comment %} TESTO TAGLIATELLINE {% endcomment %} Hai ordinato le nostre {{ order.line_items[0].title }} su Spiga Home ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
 
 Ti sono piaciute? Hai trovato il sugo perfetto per loro?
 
 💌 Puoi raccontarci se ti sono piaciute con una recensione.
 
-Se vuoi mandarci la tua ricetta preferita, rispondi a questa mail.
-{% comment %} RICORDIAMOCI DI GESTIRE IL CASO "ORDINE DEL SOLO LIEVITINO" {% endcomment %} 
-{% endif %}{% endif %} Per noi è importante conoscere la tua esperienza e la tua creatività può essere d'ispirazione per altre persone.
+Se vuoi puoi mandarci la tua ricetta preferita rispondendo a questa mail.
+
+{% elsif order.line_items[0].sku == "LWC103" %} {% comment %} TESTO SPRAY&BAKE {% endcomment %} Hai ordinato il nostro {{ order.line_items[0].title }} su Spiga Home ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
+
+Come sono venuti i Cracker?
+
+💌 Puoi raccontarci la tua esperienza con una recensione oppure rispondendo a questa mail.
+
+{% elsif order.line_items[0].sku == "BIOREAL01" %} {% comment %} TESTO LIEVITINO {% endcomment %} Hai ordinato il {{ order.line_items[0].title }} su Spiga Home ormai da un po’ di tempo e siamo curiosi di sapere com’è andata!
+
+Cos'hai preparato con il lievito?
+
+💌 Puoi raccontarci la tua esperienza con una recensione oppure rispondendo a questa mail.
+
+{% endif %}{% endif %}
+
+Per noi è importante conoscere la tua esperienza e la tua creatività può essere d'ispirazione per altre persone.
 ```
 
 #### N.B.
-aggiungere il link alla recensione:
+aggiungere il link alla recensione (prima parte con item.):
 
 💌 Puoi raccontarci se ti è piaciuto [con una recensione]({{item.product_url}})
+
+aggiungere il link alla recensione (seconda parte con item.):
+💌 Puoi raccontarci se ti è piaciuto [con una recensione]({{order.line_items[0].product_url}})
 
 #### Salvo il blocco HTML dell'ordine
 tabella che riepiloga gli elementi dell'ordine:
