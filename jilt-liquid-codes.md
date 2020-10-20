@@ -51,7 +51,7 @@ Ciao{{ customer.first_name | prepend:" " | append:", " | default: "" }}che ne pe
 
 ### Intro - Titolone
 ```javascript
-{{ customer.first_name | prepend:"Ciao " | append:"! " | default: "Eccoci" }}
+{{ customer.first_name | prepend:"Ciao " | append:"! " | default: "" }}
 ```
 
 ### Testo portante
